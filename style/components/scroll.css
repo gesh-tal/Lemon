@@ -1,0 +1,28 @@
+#scroll {
+	position: fixed;
+	bottom: 30px;
+	right: 50px;
+}
+
+#up {
+	transform: rotate(180deg);
+	margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+	#scroll {
+		right: 12px;
+	}
+}
+
+@media (max-width: 425px) {
+	#scroll {
+		right: 25px;
+	}
+}
+
+@media (max-width: 320px) {
+	#scroll {
+		right: 20px;
+	}
+}

@@ -1,0 +1,189 @@
+
+.author {
+	display: flex;
+	justify-content: center;
+}
+
+.author_block {
+	width: 37%;
+	background-color: #f8f8f8;
+	margin: 70px 40px;
+}
+
+.left {
+	background-image: url('../../images/404.png');
+	background-size: cover;
+	background-position: -34px ;
+}
+
+.author button {
+	margin-top: 120px;
+}
+
+.author_title {
+	width: 85%;
+	font-family: 'Josefin Sans', sans-serif;
+	border-bottom: 3px solid #ddd;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: bold;
+	padding: 5px;
+	margin: 15px auto;
+}
+
+.plate {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 175px;
+	text-align: center;
+}
+
+.plate img {
+	margin-top: 10px;
+}
+
+#sorry {
+	font-size: 36px;
+	text-align: center;
+}
+
+.page {
+	font-family: 'Playfair Display', sans-serif;
+	font-size: 17px;
+	font-weight: 900;
+	color: #aaa;
+}
+
+.author_img {
+	width: 25%;
+	margin: 10px 0 0 40px;
+}
+
+.info {
+	width: 55%;
+	border-bottom: 3px solid #ddd;
+	float: right;
+	margin-top: 20px;
+	margin-right: 40px;
+}
+
+.author_subtitle {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	font-size: 22px;
+	font-style: none;
+	margin-bottom: 5px;
+}
+
+.info span {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+}
+
+.info img {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#lineless {
+	border: none;
+	margin-top: -10px;
+	margin-left: 173px;
+}
+
+#italic {
+	width: 55%;
+	font-size: 15px;
+	font-style: italic;
+	margin-left: 175px;
+}
+
+.sign {
+	float: right;
+	margin-right: 50px;
+	margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+
+	.author {	    
+	    flex-direction: column;
+	    align-items: center;
+	}
+
+	.author_block {
+	    width: 55%;
+	    margin: 50px 40px;
+	}
+	
+	.left {
+		background-position: -3px;
+	}
+
+	.plate {
+		margin-top: 120px;
+	}
+
+	.author_img {
+	    margin: 10px 0 0 30px;
+	}
+
+	.author button {
+	    margin-top: 70px;
+	    margin-bottom: 40px;
+	}
+
+	#lineless {
+		margin-left: 145px;
+	}
+
+	#italic {
+		margin-left: 150px;
+	}
+}
+
+
+@media (max-width: 425px) {
+	.author_block {
+	    width: 100%;
+	    margin: 45px;
+	}
+
+	#lineless {
+	    width: 50%;
+	}
+}
+
+@media (max-width: 375px) {
+	.left {
+	    background-position: -23px;
+	}
+
+	.author_img {
+	    width: 20%;
+	    margin: 10px 0 0 29px;
+	}
+
+	#lineless {
+		margin-top: 25px;
+	    margin-left: 126px;
+	}
+
+	#italic {
+		width: 80%;
+	    margin-left: 40px;
+	}
+}
+
+@media (max-width: 320px) {
+	.left {
+	    background-position: -52px;
+	}
+
+	#lineless {
+	    margin-top: 40px;
+	    margin-left: 100px;
+	}
+}

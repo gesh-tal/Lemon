@@ -1,0 +1,90 @@
+
+.hero_page {
+	background-image: url('../../images/Photo.png');
+	background-size: 106%;
+}
+
+.hero_page img {
+	margin: 45px 80px;
+}
+
+.hp_title, .hp_text, .hp_button {
+	margin-left: 80px;
+}
+
+.hp_title {
+	font-family: 'Playfair Display', serif;
+	color: #921026;
+	font-size: 23px;
+	margin-bottom: 30px;
+}
+
+.hp_text {
+	width: 34%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	line-height: 1.2;
+	margin-bottom: 30px;
+}
+
+.hp_button {
+	width: 120px;
+	padding: 8px;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+
+@media (max-width: 768px) {
+	.hero_page {
+		background-size: 160%;
+    	background-position-x: -118px;
+	}
+}
+
+@media (max-width: 425px) {
+	.hero_page {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-repeat: no-repeat;
+	}
+
+	.hero_page img {
+	    width: 35%;
+	    align-self: flex-start;
+    	margin: 63px 33px 156px;
+	}
+
+	.hp_text {
+	    width: 70%;
+	    text-align: center;
+	}
+
+	.hp_title, .hp_text, .hp_button {
+	    margin-left: 0; 
+	}
+}
+
+@media (max-width: 375px) {
+	.hero_page img {
+		margin: 59px 16px 139px;
+	}
+
+	.hp_title, .hp_text, .hp_button {
+	    margin-left: 2px;
+	}
+}
+
+@media (max-width: 320px) {
+	.hero_page img {
+		width: 28%;
+		margin: 49px 16px 130px;
+	}
+
+	.hp_title {
+	    font-size: 21px;
+	}
+}
+
+
+
